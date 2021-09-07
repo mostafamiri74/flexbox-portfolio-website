@@ -1,0 +1,12 @@
+.footer {
+  padding: 6rem 11rem;
+  background-color: #242424;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  @media only screen and (max-width: $bp-smallest) {
+    flex-direction: column;
+    align-items: center;
+  }
+}

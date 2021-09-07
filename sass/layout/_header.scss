@@ -1,0 +1,31 @@
+.header {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.69),
+      rgba(0, 0, 0, 0.69)
+    ),
+    url("../img/header-bg.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+
+  &-section {
+    max-width: 65rem;
+    text-align: center;
+    margin: 0rem auto;
+    padding: 15rem 0;
+
+    &__title {
+      color: $color-white !important;
+      padding-bottom: 6rem;
+      text-align: center;
+    }
+
+    &__title-animation {
+      color: $color-white !important;
+      padding-bottom: 5rem;
+      font-size: 4rem;
+    }
+  }
+}

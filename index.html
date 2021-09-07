@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- link css files -->
+    <link
+      href="http://www.fontonline.ir/css/BYekan.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
+
+    <title>Mostafa Miri | portfolio page with flex and js</title>
+  </head>
+
+  <body>
+    <!-- start navigation section -->
+    <nav class="nav" id="nav">
+      <h1 class="nav__logo-box">
+        <a href="#"
+          ><img class="nav__logo-img" src="img/logo-green-1x.png"
+        /></a>
+      </h1>
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#" class="nav__link nav__active">خانه</a>
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link">درباره من</a>
+        </li>
+        <li class="nav__item">
+          <a href="#services" class="nav__link">خدمات </a>
+        </li>
+        <li class="nav__item">
+          <a href="#portfolio" class="nav__link">نمونه کارها</a>
+        </li>
+        <li class="nav__item">
+          <a href="#weblog" class="nav__link">وبلاگ</a>
+        </li>
+        <li class="nav__item">
+          <a href="#call" class="nav__link">تماس</a>
+        </li>
+      </ul>
+      <div class="hamburger-box">
+        <input type="checkbox" class="hamburger-checkbox" id="checkbox" />
+        <div class="hamburger-btn"><div></div></div>
+      </div>
+    </nav>
+    <!-- end navigation section -->
+
+    <!-- start header section -->
+    <header class="header" id="particles-js">
+      <section class="header-section">
+        <h3 class="heading-tertiary header-section__title">خوش آمدید</h3>
+        <h2 class="heading-secondary header-section__title-animation">
+          مصطفی میری
+        </h2>
+        <p class="paragraph header-section__title">
+          با بیش از 10 سال سابقه کار و فعال حوزه استارت آپ و طراح بیش از 50 سایت
+          شرکتی و فروشگاهی و همچنین برنامه نویس مورد تایید تم فارست هستم
+        </p>
+        <a href="#" class="btn btn--white">دانلود رزومه</a>
+      </section>
+    </header>
+    <!-- end header section -->
+
+    <main>
+      <!-- start about section -->
+      <section
+        class="section-about"
+        id="about"
+        data-aos="fade-left"
+        data-aos-duration="2000"
+      >
+        <div class="section-about__pic">
+          <img
+            src="img/about.jpg"
+            alt="Person on a tour"
+            class="section-about__pic__img"
+          />
+        </div>
+        <div class="section-about__content">
+          <h2 class="heading-secondary">درباره من</h2>
+          <h3 class="heading-tertiary">سلام! من امیرحسام افروز هستم</h3>
+          <p class="paragraph">
+            لورم ايپسوم يک متن بي مفهوم استاندارد است که طراح براي پرکردن صفحات
+            وب از آن استفاده مي کند.
+          </p>
+          <p class="paragraph">
+            لورم ايپسوم يک متن بي مفهوم استاندارد است که طراح براي پرکردن صفحات
+            وب از آن استفاده مي کند. لورم ايپسوم يک متن بي مفهوم استاندارد است
+            که طراح براي پرکردن صفحات وب از آن استفاده مي کند.
+          </p>
+          <p class="paragraph">
+            لورم ايپسوم يک متن بي مفهوم استاندارد است که طراح براي پرکردن صفحات
+            وب از آن استفاده مي کند.
+          </p>
+          <p class="paragraph">
+            لورم ايپسوم يک متن بي مفهوم استاندارد است که طراح براي پرکردن صفحات
+            وب از آن استفاده مي کند.
+          </p>
+        </div>
+      </section>
+      <!-- end about section -->
+
+      <!-- start services section -->
+      <section
+        class="section-services"
+        id="services"
+        data-aos="fade-left"
+        data-aos-duration="2000"
+      >
+        <div class="section-title">
+          <h2 class="heading-secondary">خدمات من</h2>
+          <p class="paragraph">
+            لورم ايپسوم يک متن بي مفهوم استاندارد است که طراح براي پرکردن صفحات
+            وب از آن استفاده مي کند.
+          </p>
+        </div>
+        <div class="section-services__card-div">
+          <div class="section-services__card">
+            <i class="fas fa-cloud-upload-alt section-services__icon"></i>
+            <h2 class="heading-tertiary section-services__title">
+              بازاریابی دیجیتال
+            </h2>
+            <p class="section-services__paragraph">
+              از آنجا که لورم ایپسوم، شباهت زیادی به متن های واقعی دارد، طراحان
+              معمولا از لورم ایپسوم استفاده میکنند تا فقط به مشتری یا کار فرما
+              نشان دهند که قالب طراحی شده است.
+            </p>
+          </div>
+          <div class="section-services__card">
+            <i class="fas fa-user-cog section-services__icon"></i>
+            <h2 class="heading-tertiary section-services__title">
+              شخصی سازی راحت
+            </h2>
+            <p class="section-services__paragraph">
+              از آنجا که لورم ایپسوم، شباهت زیادی به متن های واقعی دارد، طراحان
+              معمولا از لورم ایپسوم استفاده میکنند تا فقط به مشتری یا کار فرما
+              نشان دهند که قالب طراحی شده است.
+            </p>
+          </div>
+          <div class="section-services__card">
+            <i class="fas fa-palette section-services__icon"></i>
+            <h2 class="heading-tertiary section-services__title">
+              رنگ بندی نامحدود
+            </h2>
+            <p class="section-services__paragraph">
+              از آنجا که لورم ایپسوم، شباهت زیادی به متن های واقعی دارد، طراحان
+              معمولا از لورم ایپسوم استفاده میکنند تا فقط به مشتری یا کار فرما
+              نشان دهند که قالب طراحی شده است.
+            </p>
+          </div>
+          <div class="section-services__card">
+            <i class="fas fa-chart-area section-services__icon"></i>
+            <h2 class="heading-tertiary section-services__title">
+              طراحی گرافیکی
+            </h2>
+            <p class="section-services__paragraph">
+              از آنجا که لورم ایپسوم، شباهت زیادی به متن های واقعی دارد، طراحان
+              معمولا از لورم ایپسوم استفاده میکنند تا فقط به مشتری یا کار فرما
+              نشان دهند که قالب طراحی شده است.
+            </p>
+          </div>
+          <div class="section-services__card">
+            <i class="fas fa-expand-arrows-alt section-services__icon"></i>
+            <h2 class="heading-tertiary section-services__title">
+              طراحی واکنش گرا
+            </h2>
+            <p class="section-services__paragraph">
+              از آنجا که لورم ایپسوم، شباهت زیادی به متن های واقعی دارد، طراحان
+              معمولا از لورم ایپسوم استفاده میکنند تا فقط به مشتری یا کار فرما
+              نشان دهند که قالب طراحی شده است.
+            </p>
+          </div>
+          <div class="section-services__card">
+            <i class="fas fa-clipboard-list section-services__icon"></i>
+            <h2 class="heading-tertiary section-services__title">تنوع محصول</h2>
+            <p class="section-services__paragraph">
+              از آنجا که لورم ایپسوم، شباهت زیادی به متن های واقعی دارد، طراحان
+              معمولا از لورم ایپسوم استفاده میکنند تا فقط به مشتری یا کار فرما
+              نشان دهند که قالب طراحی شده است.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- end services section -->
+
+      <!-- start portfolio section -->
+      <section
+        class="section-portfolio"
+        id="portfolio"
+        data-aos="fade-left"
+        data-aos-duration="2000"
+      >
+        <div class="section-title">
+          <h2 class="heading-secondary">نمونه کارهای من</h2>
+          <p class="paragraph">
+            لورم ايپسوم يک متن بي مفهوم استاندارد است که طراح براي پرکردن صفحات
+            وب از آن استفاده مي کند.
+          </p>
+        </div>
+        <div class="section-portfolio__menu">
+          <ul class="section-portfolio__list">
+            <li class="section-portfolio__item">
+              <a
+                class="section-portfolio__link section-portfolio__active"
+                data-filter="all"
+                >همه</a
+              >
+            </li>
+            <li class="section-portfolio__item">
+              <a class="section-portfolio__link" data-filter="1">سئو</a>
+            </li>
+            <li class="section-portfolio__item">
+              <a class="section-portfolio__link" data-filter="2">طراحی وب </a>
+            </li>
+            <li class="section-portfolio__item">
+              <a class="section-portfolio__link" data-filter="3">کارهای اخیر</a>
+            </li>
+            <li class="section-portfolio__item">
+              <a class="section-portfolio__link" data-filter="4">وردپرس</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="section-portfolio__card-div">
+          <div class="section-portfolio__card" data-category="2">
+            <img class="section-portfolio__card__img" src="img/works/1.jpg" />
+            <div class="section-portfolio__card__detail">
+              <p class="mb-2">دسته بندی</p>
+              <h4 class="mb-0">عنوان پروژه</h4>
+            </div>
+          </div>
+          <div class="section-portfolio__card" data-category="1">
+            <img class="section-portfolio__card__img" src="img/works/2.jpg" />
+            <div class="section-portfolio__card__detail">
+              <p class="mb-2">دسته بندی</p>
+              <h4 class="mb-0">عنوان پروژه</h4>
+            </div>
+          </div>
+          <div class="section-portfolio__card" data-category="4">
+            <img class="section-portfolio__card__img" src="img/works/3.jpg" />
+            <div class="section-portfolio__card__detail">
+              <p class="mb-2">دسته بندی</p>
+              <h4 class="mb-0">عنوان پروژه</h4>
+            </div>
+          </div>
+          <div class="section-portfolio__card" data-category="2">
+            <img class="section-portfolio__card__img" src="img/works/4.jpg" />
+            <div class="section-portfolio__card__detail">
+              <p class="mb-2">دسته بندی</p>
+              <h4 class="mb-0">عنوان پروژه</h4>
+            </div>
+          </div>
+          <div class="section-portfolio__card" data-category="3">
+            <img class="section-portfolio__card__img" src="img/works/5.jpg" />
+            <div class="section-portfolio__card__detail">
+              <p class="mb-2">دسته بندی</p>
+              <h4 class="mb-0">عنوان پروژه</h4>
+            </div>
+          </div>
+          <div class="section-portfolio__card" data-category="4">
+            <img class="section-portfolio__card__img" src="img/works/6.jpg" />
+            <div class="section-portfolio__card__detail">
+              <p class="mb-2">دسته بندی</p>
+              <h4 class="mb-0">عنوان پروژه</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end portfolio section -->
+
+      <!-- start weblog section -->
+      <section
+        class="section-weblog"
+        id="weblog"
+        data-aos="fade-left"
+        data-aos-duration="2000"
+      >
+        <div class="section-title">
+          <h2 class="heading-secondary">وبلاگ من</h2>
+          <p class="paragraph">
+            لورم ايپسوم يک متن بي مفهوم استاندارد است که طراح براي پرکردن صفحات
+            وب از آن استفاده مي کند.
+          </p>
+        </div>
+        <div class="section-weblog__card-div">
+          <div
+            class="section-weblog__card"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <img class="section-weblog__card__img" src="img/blog/blog-1.jpg" />
+            <div class="section-weblog__card__content">
+              <h2 class="heading-tertiary section-weblog__card__title">
+                بازاریابی دیجیتال
+              </h2>
+              <p class="section-weblog__card__paragraph">
+                1398.08.22
+                <span class="section-weblog__card__name">مصطفی میری</span>
+              </p>
+              <p class="section-weblog__card__paragraph">
+                از آنجا که لورم ایپسوم، شباهت زیادی به متن های واقعی دارد،
+                طراحان معمولا از لورم ایپسوم استفاده میکنند تا فقط به مشتری یا
+                کار فرما نشان دهند که قالب طراحی شده است.
+              </p>
+              <a href="#" class="paragraph section-weblog__card__link"
+                >ادامه مطلب</a
+              >
+            </div>
+          </div>
+          <div
+            class="section-weblog__card"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <img class="section-weblog__card__img" src="img/blog/blog-2.jpg" />
+            <div class="section-weblog__card__content">
+              <h2 class="heading-tertiary section-weblog__card__title">
+                بازاریابی دیجیتال
+              </h2>
+              <p class="section-weblog__card__paragraph">
+                1398.08.22
+                <span class="section-weblog__card__name">مصطفی میری</span>
+              </p>
+              <p class="section-weblog__card__paragraph">
+                از آنجا که لورم ایپسوم، شباهت زیادی به متن های واقعی دارد،
+                طراحان معمولا از لورم ایپسوم استفاده میکنند تا فقط به مشتری یا
+                کار فرما نشان دهند که قالب طراحی شده است.
+              </p>
+              <a href="#" class="paragraph section-weblog__card__link"
+                >ادامه مطلب</a
+              >
+            </div>
+          </div>
+          <div
+            class="section-weblog__card"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <img class="section-weblog__card__img" src="img/blog/blog-3.jpg" />
+            <div class="section-weblog__card__content">
+              <h2 class="heading-tertiary section-weblog__card__title">
+                بازاریابی دیجیتال
+              </h2>
+              <p class="section-weblog__card__paragraph">
+                1398.08.22
+                <span class="section-weblog__card__name">مصطفی میری</span>
+              </p>
+              <p class="section-weblog__card__paragraph">
+                از آنجا که لورم ایپسوم، شباهت زیادی به متن های واقعی دارد،
+                طراحان معمولا از لورم ایپسوم استفاده میکنند تا فقط به مشتری یا
+                کار فرما نشان دهند که قالب طراحی شده است.
+              </p>
+              <a href="#" class="paragraph section-weblog__card__link"
+                >ادامه مطلب</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end weblog section -->
+
+      <!-- start call section -->
+      <section
+        class="section-call"
+        id="call"
+        data-aos="fade-left"
+        data-aos-duration="2000"
+      >
+        <div class="section-title">
+          <h2 class="heading-secondary">تماس با ما</h2>
+          <p class="paragraph">
+            لورم ايپسوم يک متن بي مفهوم استاندارد است که طراح براي پرکردن صفحات
+            وب از آن استفاده مي کند.
+          </p>
+        </div>
+        <div class="section-call__card-div">
+          <div class="section-call__card">
+            <i class="fas fa-map-marker-alt section-call__icon"></i>
+            <h2 class="heading-tertiary section-call__title">آدرس دفتر ما</h2>
+            <p class="section-call__paragraph">
+              ایران، تهران، سعادت آباد، پلاک 22
+            </p>
+          </div>
+          <div class="section-call__card">
+            <i class="fas fa-envelope section-call__icon"></i>
+            <h2 class="heading-tertiary section-call__title">ایمیل بزنید</h2>
+            <p class="section-call__paragraph">mostafamiri12345@gmail.com</p>
+          </div>
+          <div class="section-call__card">
+            <i class="fas fa-mobile-alt section-call__icon"></i>
+            <h2 class="heading-tertiary section-call__title">تماس با ما</h2>
+            <p class="section-call__paragraph">+98 933 333 8822</p>
+          </div>
+        </div>
+
+        <form class="section-call__form">
+          <input
+            type="text"
+            class="section-call__form__input"
+            placeholder="نام شما"
+          />
+          <input
+            type="text"
+            class="section-call__form__input"
+            placeholder="ایمیل شما"
+          />
+
+          <input
+            type="text"
+            class="section-call__form__input2"
+            placeholder="موضوع..."
+          />
+          <textarea
+            class="section-call__form__input2"
+            cols="30"
+            rows="10"
+            placeholder="پیام شما..."
+          ></textarea>
+        </form>
+        <a href="#" class="btn btn--pink">دانلود رزومه</a>
+      </section>
+      <!-- end call section -->
+
+      <!-- start footer section -->
+      <footer class="footer" id="footer">
+        <p class="paragraph">طراح قالب : مصطفی میری</p>
+        <p class="paragraph">Mostafa Miri - Web Developer</p>
+      </footer>
+      <!-- end footer section -->
+    </main>
+
+    <!-- link js files -->
+    <script src="./js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
